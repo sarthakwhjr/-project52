@@ -1,0 +1,82 @@
+h1 {
+    color:aqua;
+     border: solid red ;
+     margin-left: 100px;
+     padding-right: 20px;
+     
+}
+/* * {
+    border: solid;
+} */
+.sub{
+    display: flex;
+    justify-content: center;
+    color:aqua
+}
+.sub1{
+    font-size: 20px;
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    background-color: rgb(95, 158, 160);
+    display: flex;
+    justify-content: center;
+
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.item p{
+    font-size: 20px;
+    font-style:italic;
+    margin-right: 20px;
+}
+.item  img{
+margin-right: 20px;
+padding: 5px;
+border: solid black ;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer p{
+    margin-bottom: 300px;
+    width: 50%;
+    
+    border: solid black;
+}
+.item p{
+opacity: 0;
+
+}
+.item:hover p{
+opacity: 1;
+
+}
+.item img{
+opacity: 1;
+}
+.item:hover img{
+
+opacity: 0.5;
+}
+a:link{
+color: blue;
+
+}
+a:visited{
+    color: red;
+}
